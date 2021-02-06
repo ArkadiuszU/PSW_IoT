@@ -1,0 +1,19 @@
+https://dweet.io/dweet/for/au
+
+{
+    "developer": {
+      "actual_bath_time": "0",
+      "total_bath_counter": "1",
+      "status": "ok"
+    },
+    "fixer": {
+      "actual_bath_time": "2",
+      "total_bath_counter": "3",
+      "status": "work"
+    },
+    "stop_bath": {
+      "actual_bath_time": "4",
+      "total_bath_counter": "5",
+      "status": "fault"
+    }
+}

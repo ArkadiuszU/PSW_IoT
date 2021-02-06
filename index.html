@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+
+
+
+    <div class="row container"> 
+
+        <div class="info box col-10">
+
+            <div class="header col-12">
+               <h1>Darkroom Controller</h1>
+            </div>
+
+            <div class="content infos1 col-12">
+                <div class="value info-value col-2"> 
+                    <h1>date-time</h1>
+                    <img src="assets/calendar.svg">
+                    <span class="info" id="data"></span>
+                </div>
+                <div class="value info-value col-2">
+                    <h1>current bath name</h1>
+                     <img src="assets/gallery.svg"> 
+                     <span class="info" id="actual_bath_name"></span>
+                </div>
+                <div class="value info-value col-2">
+                    <h1>current bath time</h1>
+                     <img src="assets/clock.svg"> 
+                    <span class="info" id="actual_bath_time"></span>
+                </div>
+                
+            </div>
+            <div class="content infos2 col-12">
+                
+                <div class="value info-value col-2">
+                    <h1>bath total counter</h1>
+                    <img src="assets/e-learning.svg">
+                    <span class="info" id="counter"></span>
+                </div>
+                <div class="value info-value col-2">
+                    <h1>controller status</h1>
+                    <img src="assets/lightbulb.svg">
+                    <span class="info" id="status"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="temp box col-10"> 
+
+
+            <div class="header col-12">
+                <h1>Temperatura</h1>
+            </div>
+
+            <div class="content temps col-12">
+                <div class="value temp-value">developer: <span class="temp" id="developer"></span></div>
+            <div class="value  temp-value">stop_bath: <span class="temp" id="stop_bath"></span></div>
+            <div class="value  temp-value">fixer: <span class="temp" id="fixer"></span></div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+        <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
